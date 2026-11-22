@@ -1,0 +1,20 @@
+{
+  "command": [
+    "pwsh",
+    "-NoProfile",
+    "-File",
+    "app.ps1"
+  ],
+  "expected": {
+    "long_gaps": [
+      [
+        "2026-10-21",
+        "2026-11-15",
+        25
+      ]
+    ],
+    "same_day": [
+      "2026-10-21"
+    ]
+  }
+}
